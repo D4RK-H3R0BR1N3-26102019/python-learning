@@ -4,7 +4,12 @@ import Link from 'next/link';
 
 function Home() {
   return (
-    <div></div>
+    <div>
+      <Head>
+        <title>Python Learning</title>
+        <link  />
+      </Head>
+    </div>
   )
 }
 
