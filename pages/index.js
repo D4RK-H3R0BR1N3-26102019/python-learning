@@ -15,26 +15,28 @@ function Home() {
       </Head>
       <main>
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
-          <a className="navbar-brand" href="#">Python-Learning</a>
-          <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" arial-label="Alterna Navegação">
+          <a className="navbar-brand" href="#" style={{marginLeft: '1.5%'}}>Python-Learning</a>
+          <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" arial-controls="navbarNavDropdown" aria-expanded="false" aria-label="Alterna Navegação">
             <span className="navbar-toggler-icon"></span>
           </button>
-          <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
-            <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
+          <div className="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul className="navbar-nav">
               <li className="nav-item active">
-                <a className="nav-link" href="#">Página Inicial</a>
+                <a className="nav-link" href="#">Home</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">Link</a>
+                <a className="nav-link" href="#">Guia</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link disabled" href="#">Desativado</a>
+                <a className="nav-link" href="#">Libs</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#">Blog</a>
+              </li>
+              <li className='nav-item'>
+                <a className="nav-link" href="#">Contato</a>
               </li>
             </ul>
-            <form className="form-inline my-2 my-lg-0">
-              <input className="form-control mr-sm-2" type="search" placeholder="Pesquisar" />
-              <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
-            </form>
           </div>
         </nav>
 
