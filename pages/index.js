@@ -7,7 +7,7 @@ function Home() {
     <div>
       <Head>
         <title>Python Learning</title>
-        <link  />
+        <link rel="icon" type="image/png" href="/python-icon.png" />
       </Head>
     </div>
   )
