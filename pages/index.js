@@ -22,19 +22,19 @@ function Home() {
           <div className="collapse navbar-collapse" id="navbarNavDropdown">
             <ul className="navbar-nav">
               <li className="nav-item active">
-                <a className="nav-link" href="#">Home</a>
+                <a className="nav-link" href="https://python-learning.vercel.app">Home</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">Guia</a>
+                <a className="nav-link" href="/guia">Guia</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">Libs</a>
+                <a className="nav-link" href="/bibliotecas">Libs</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">Blog</a>
+                <a className="nav-link" href="/blog">Blog</a>
               </li>
               <li className='nav-item'>
-                <a className="nav-link" href="#">Contato</a>
+                <a className="nav-link" href="/contato">Contato</a>
               </li>
             </ul>
           </div>
