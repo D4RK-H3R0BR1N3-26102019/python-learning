@@ -1,6 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Head from 'next/head';
 import Link from 'next/link';
+import '../styles/Home.module.css';
 
 function Home() {
   return (
@@ -41,7 +42,12 @@ function Home() {
         </nav>
 
         <h1 className="mt-3 mb-3" style={{display: 'flex', justifyContent: 'center'}}>Introdução</h1>
-        <p className="text-justify" style={{fontFamily: 'monospace', marginLeft: '3%', marginRight: '3%'}}>São várias as características do Python que a tornam uma linguagem tão promissora e, que atrai a cada dia, mais desenvolvedores. A seguir serão elucidados algumas destas características dele.</p>
+        <p className="text-justify" style={{fontFamily: 'monospace', marginLeft: '3%', marginRight: '3%'}}>São várias as características do Python que a tornam uma linguagem tão promissora e, que atrai a cada dia, mais desenvolvedores. A seguir serão elucidados algumas destas características dele. Entre suas características, temos:</p>      
+        <ul style={{marginLeft: '3%', marginRight: '3%', fontFamily: 'monospace'}}>
+          <li><b>Fácil de Aprender:</b> O Python é uma linguagem fácil de ser aprendida e poderosa para trabalharmos. A mesma possui uma sintaxe limpa e clara, como também, contém um conjunto de módulos e bibliotecas estáveis e bem estruturadas.</li>
+          <li><b>Fácil Leitura e Compreensão:</b> A sintaxe da linguagem é minimalista, ou seja, mantém somente o necessário, o que torna o código escrito, muitas vezes, um texto em Inglês.</li>
+          <li><b>Fácil Manutenção:</b> Em decorrência da simplicidade sintática e da excelente estruturação das bibliotecas, a manutenção de códigos, seja aquele que desenvolvemos ou mesmo os de terceiros, tornam-se muito mais viável.</li>
+        </ul>
       </main>
     </div>
   )
