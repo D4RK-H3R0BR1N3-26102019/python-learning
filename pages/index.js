@@ -37,6 +37,9 @@ function Home() {
             </form>
           </div>
         </nav>
+
+        <h1 className="mt-3 mb-3" style={{display: 'flex', justifyContent: 'center'}}>Introdução</h1>
+        <p className="text-justify ml-3 mr-3" style={{fontFamily: 'monospace'}}>São várias as características do Python que a tornam uma linguagem tão promissora e, que atrai a cada dia, mais desenvolvedores. A seguir serão elucidados algumas destas características dele.</p>
       </main>
     </div>
   )
