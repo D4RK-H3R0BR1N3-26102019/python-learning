@@ -26,10 +26,13 @@ function Home() {
                 <a className="nav-link" href="https://python-learning.vercel.app">Home</a>
               </li>
               <li className="nav-item">
+                <a className="nav-link" href="/sobre">Sobre</a>
+              </li>
+              <li className="nav-item">
                 <a className="nav-link" href="/guia">Guia</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/bibliotecas">Libs</a>
+                <a className="nav-link" href="/bibliotecas">Bibliotecas</a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="/blog">Blog</a>
@@ -41,13 +44,23 @@ function Home() {
           </div>
         </nav>
 
+        <div className="alert alert-warning alert-dismissible fade show" role="alert" style={{marginTop: '3%', marginLeft: '3%', marginRight: '3%'}}>
+          <b>IMPORTANTE:</b> Se você está em um dispositivo móvel, como um celular, acesse a versão <a href="/mobile">mobile</a> do site para que ele não fique quebrado ou tenha algum defeito.
+          <button style={{background: 'none', border: 'none', marginLeft: '1%'}} type="button" className="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true" style={{fontSize: '120%'}}>&times;</span>
+          </button>
+        </div>
+
         <h1 className="mt-3 mb-3" style={{display: 'flex', justifyContent: 'center'}}>Introdução</h1>
         <p className="text-justify" style={{fontFamily: 'monospace', marginLeft: '3%', marginRight: '3%'}}>São várias as características do Python que a tornam uma linguagem tão promissora e, que atrai a cada dia, mais desenvolvedores. A seguir serão elucidados algumas destas características dele. Entre suas características, temos:</p>      
         <ul style={{marginLeft: '3%', marginRight: '3%', fontFamily: 'monospace'}}>
-          <li><b>Fácil de Aprender:</b> O Python é uma linguagem fácil de ser aprendida e poderosa para trabalharmos. A mesma possui uma sintaxe limpa e clara, como também, contém um conjunto de módulos e bibliotecas estáveis e bem estruturadas.</li>
-          <li><b>Fácil Leitura e Compreensão:</b> A sintaxe da linguagem é minimalista, ou seja, mantém somente o necessário, o que torna o código escrito, muitas vezes, um texto em Inglês.</li>
-          <li><b>Fácil Manutenção:</b> Em decorrência da simplicidade sintática e da excelente estruturação das bibliotecas, a manutenção de códigos, seja aquele que desenvolvemos ou mesmo os de terceiros, tornam-se muito mais viável.</li>
+          <li style={{marginBottom: '1%'}}><b>Fácil de Aprender:</b> O Python é uma linguagem fácil de ser aprendida e poderosa para trabalharmos. A mesma possui uma sintaxe limpa e clara, como também, contém um conjunto de módulos e bibliotecas estáveis e bem estruturadas.</li>
+          <li style={{marginBottom: '1%'}}><b>Fácil Leitura e Compreensão:</b> A sintaxe da linguagem é minimalista, ou seja, mantém somente o necessário, o que torna o código escrito, muitas vezes, um texto em Inglês.</li>
+          <li style={{marginBottom: '1%'}}><b>Fácil Manutenção:</b> Em decorrência da simplicidade sintática e da excelente estruturação das bibliotecas, a manutenção de códigos, seja aquele que desenvolvemos ou mesmo os de terceiros, tornam-se muito mais viável.</li>
+          <li style={{marginBottom: '1%'}}><b>Multiplataforma:</b> O interpretador do Python é escrito com a linguagem C e C++, assim, o mesmopode ser portado a todas as plataformas que possuam compiladores para a linguagem. Tendo em vista de que o C++ é a linguagem mais difundida e a base de praticamente toda a informática, temos compiladores nativos ou portados para quase todas as plataformas existentes.</li>
+          <li><b>Modo Interativo:</b> Sendo o Python uma linguagem interpretadam foi possível o desenvolvimeno de ferramentas interativas, ou sjea, ferramentas majoritariamente em linha de comando, onde podemos executar instruções e analisar a saída.</li>
         </ul>
+        <p className="text-justify" style={{fontFamily: 'monospace', marginLeft: '3%', marginRight: '3%'}}>Hoje o Python está presente nas áreas de Desenvolvimento Web, Inteligência Artificial, Computação Gráfica, Big Data, Ciência de Dados e muito mais!</p>
       </main>
     </div>
   )
